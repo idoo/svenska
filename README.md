@@ -1,2 +1,0 @@
-# svenska
-Created with CodeSandbox

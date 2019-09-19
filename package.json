@@ -1,0 +1,26 @@
+{
+  "name": "svenska",
+  "version": "1.0.0",
+  "description": "Basic example of app rendering.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@redux-saga/core": "1.0.2",
+    "axios": "0.18.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-image": "2.1.1",
+    "react-redux": "7.0.3",
+    "react-scripts": "3.0.1",
+    "redux": "4.0.1",
+    "redux-actions": "2.6.5",
+    "redux-saga": "1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
