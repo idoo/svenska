@@ -17,9 +17,6 @@ function* fetchImageSaga({ word }) {
 export default fetchImageSaga;
 
 async function fetchImageURL(word) {
-  if (word === "clumsy") {
-    return "https://files.slack.com/files-pri/T0EMZ91PG-FMQKXAB1P/image_from_ios.jpg";
-  }
   const response = await fetch(proxyUrl + `${URL}${word}`).then(response => {
     return response.json().then(body => {
       // console.log(body);
@@ -28,14 +25,3 @@ async function fetchImageURL(word) {
   });
   return response;
 }
-
-// async function fetchImageURL(word) {
-//   const response = await fetch(proxyUrl + `${URL}${word}`)
-//     .then(response => {
-//       return response.json().then(body => {
-//         return body.query.pages;
-//       });
-//     })
-//     .then(data => data[Object.keys(data)[0]]["original"]["source"]);
-//   return response;
-// }
