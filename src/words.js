@@ -48,5 +48,19 @@ export const WORDS = [
   { se: "torka", en: "wipe" },
   { se: "torr", en: "dry" },
   { se: "tvätta", en: "wash" },
-  { se: "ursäkta", en: "excuse me" }
+  { se: "ursäkta", en: "excuse me" },
+  { se: "mjukvaruutvecklare", en: "software developer" },
+  { se: "lugn", en: "calm" },
+  { se: "gråta", en: "cry" },
+  { se: "fladdermus", en: "bat" },
+  { se: "utomjording", en: "alien" },
+  { se: "bastu", en: "sauna" },
+  { se: "sommarstuga", en: "summer house" },
+  { se: "himmel", en: "sky" },
+  { se: "skärgård", en: "archipelago" },
+  { se: "ö", en: "island" },
+  { se: "å", en: "small river" },
+  { se: "sjö", en: "lake" },
+  { se: "hav", en: "sea" },
+  { se: "haj", en: "shark" }
 ];
