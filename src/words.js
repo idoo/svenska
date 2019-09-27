@@ -62,5 +62,15 @@ export const WORDS = [
   { se: "å", en: "small river" },
   { se: "sjö", en: "lake" },
   { se: "hav", en: "sea" },
+  { se: "vecka", en: "week" },
+  { se: "idag", en: "today" },
+  { se: "imorgon", en: "tomorrow" },
+  { se: "klocka", en: "clock" },
+  { se: "använda", en: "use" },
+  { se: "gå", en: "go" },
+  { se: "komma", en: "come" },
+  { se: "se", en: "see" },
+  { se: "bra", en: "good" },
+  { se: "vacker", en: "beautiful" },
   { se: "haj", en: "shark" }
 ];
