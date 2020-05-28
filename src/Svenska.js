@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { getWord, getImage } from "./selectors";
-import Img from "react-image";
+import { Img } from "react-image";
 
 const Word = data => {
   return (
